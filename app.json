@@ -1,28 +1,41 @@
 {
   "expo": {
-    "name": "NeuroConnect",
-    "slug": "NeuroConnect",
+    "name": "NeuroConnect Zone",
+    "slug": "neuroconnect-zone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/NCZ_LOGO.png",
     "userInterfaceStyle": "light",
-    "sdkVersion": "52.0.0",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/NCZ_LOGO.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aizal.neuroconnectzone",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/NCZ_LOGO.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow NeuroConnect Zone to access your microphone."
+        }
+      ]
+    ],
+    "sdkVersion": "52.0.0"
   }
 }
