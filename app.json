@@ -29,6 +29,7 @@
       "favicon": "./assets/NCZ_LOGO2.png"
     },
     "plugins": [
+      
       [
         "expo-av",
         {
