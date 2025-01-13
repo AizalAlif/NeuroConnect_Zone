@@ -4,12 +4,12 @@
     "slug": "neuroconnect-zone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/NCZ_LOGO.png",
+    "icon": "./assets/NCZ_LOGO2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/NCZ_LOGO2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4CC9FE"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,14 +19,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/NCZ_LOGO.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/NCZ_LOGO2.png",
+        "backgroundColor": "#4CC9FE"
       },
       "package": "com.aizal.neuroconnectzone",
       "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
     },
     "web": {
-      "favicon": "./assets/NCZ_LOGO.png"
+      "favicon": "./assets/NCZ_LOGO2.png"
     },
     "plugins": [
       [
