@@ -22,22 +22,16 @@
       "package": "com.mikuaiza69.neuroconnectzone",
       "adaptiveIcon": {
         "foregroundImage": "./assets/NCZ_LOGO2.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#4CC9FE"
       },
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS"
+        "WRITE_EXTERNAL_STORAGE"
       ]
     },
     "web": {
       "favicon": "./assets/NCZ_LOGO2.png"
-    },
-    "cli": {
-      "appVersionSource": "remote",
-      "version": ">= 5.9.1"
     },
     "plugins": [
       [
@@ -47,7 +41,6 @@
         }
       ]
     ],
-    "sdkVersion": "52.0.0",
     "extra": {
       "eas": {
         "projectId": "neuroconnect-zone"
